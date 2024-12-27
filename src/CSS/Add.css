@@ -1,0 +1,79 @@
+*
+
+.product-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #F08080; /* Beige */
+
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.add-product-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-field:focus {
+    border-color: #007bff; /* Bootstrap primary color */
+    outline: none; /* Remove default outline */
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.message {
+    text-align: center;
+    font-size: 16px;
+}
+
+.product-list {
+    list-style-type: none; /* Remove default list styles */
+    padding-left: 0; /* Remove default padding */
+}
+
+.product-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Divider between items */
+}
+
+.product-item:last-child {
+    border-bottom: none; /* Remove divider for last item */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .product-form-container {
+        padding: 15px; /* Less padding on smaller screens */
+    }
+
+    .input-field,
+    .submit-button {
+        font-size: 16px; /* Adjust font size for smaller screens */
+        padding: 8px; /* Reduce padding */
+    }
+}

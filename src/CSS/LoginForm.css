@@ -1,0 +1,33 @@
+LoginForm.css
+
+.login-container {
+    background-color: #f7f9fc; /* Light background color */
+    min-height: 100vh; /* Full height */
+}
+
+.login-card {
+    background-color: white; /* White card background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 2rem; /* Padding inside card */
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 1.5rem; /* Space below title */
+}
+
+.input-field {
+    border-radius: 4px; /* Rounded input fields */
+}
+
+.submit-button {
+    width: 100%; /* Full width button */
+    border-radius: 4px; /* Rounded button */
+}
+
+@media (max-width: 576px) {
+    .login-card {
+        padding: 1rem; /* Reduced padding for smaller screens */
+    }
+}
