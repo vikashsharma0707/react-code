@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+    background: linear-gradient(to right, #6a11cb, #2575fc); 
 }
 
 .login-container {
@@ -12,39 +12,39 @@ body {
 }
 
 .login-card {
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
-    border-radius: 15px; /* Rounded corners */
-    padding: 2rem; /* Padding around the form */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Shadow effect */
-    transition: transform 0.3s; /* Smooth transition */
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 15px; 
+    padding: 2rem; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
 }
 
 .login-card:hover {
-    transform: translateY(-5px); /* Slight lift on hover */
+    transform: translateY(-5px); 
 }
 
 .login-title {
     text-align: center;
-    margin-bottom: 1.5rem; /* Space below title */
-    color: #333; /* Dark text color */
+    margin-bottom: 1.5rem; 
+    color: #333;
 }
 
 .input-field {
-    border-radius: 5px; /* Rounded input fields */
-    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
 }
 
 .input-field:focus {
-    border-color: #6a11cb; /* Border color on focus */
-    box-shadow: 0 0 5px rgba(106, 17, 203, 0.5); /* Glow effect on focus */
+    border-color: #6a11cb; 
+    box-shadow: 0 0 5px rgba(106, 17, 203, 0.5); 
 }
 
 .submit-button {
-    width: 100%; /* Full-width button */
-    background-color: #6a11cb; /* Button color */
-    border: none; /* Remove border */
+    width: 100%; 
+    background-color: #6a11cb; 
+    border: none; 
 }
 
 .submit-button:hover {
-    background-color: #2575fc; /* Change color on hover */
+    background-color: #2575fc; 
 }
